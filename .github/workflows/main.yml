@@ -20,4 +20,4 @@ jobs:
       - name: Set up Docker Compose
         run: sudo apt-get install docker-compose
       - name: Run docker compose
-        run: docker-compose up --abort-on-container-exit
+        run: docker compose up --abort-on-container-exit
